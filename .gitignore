@@ -1,0 +1,16 @@
+.venv/
+.python/
+.cache/
+logs/
+__pycache__/
+.ai/
+AGENTS.md
+CLAUDE.md
+.env
+.env.*
+!*.env.example
+official-cli-reference.py
+*-metadata.json
+model-config-reference.json
+aws-access-cost-*.json
+aws-access-cost-*.md

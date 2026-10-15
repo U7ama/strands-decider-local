@@ -1,0 +1,15 @@
+{
+  "state": "A classroom projector is offline. Its power indicator is on. The upstream switch reports 70 percent packet loss and other devices on that switch are unreachable.",
+  "questions": {
+    "specialist": {
+      "type": "choice",
+      "instructions": "Which specialist should investigate first? Select human_review if the evidence is insufficient or conflicting.",
+      "criteria": {
+        "network": "Connectivity, packet loss, switches, and shared network dependencies",
+        "system": "Device operating system or application faults",
+        "power": "Power supply faults and equipment without power",
+        "human_review": "Insufficient evidence, conflicting observations, or none of the other specialists"
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+strands-decider==0.1.0
+torch==2.7.1+cpu
+transformers==5.17.0
+peft==0.21.0
